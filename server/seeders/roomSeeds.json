@@ -1,0 +1,63 @@
+[
+    {
+      "location": "Melbourne",
+      "image": "https://images.unsplash.com/photo-1540518614846-7eded433c457?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1457&q=80",
+      "parkingSpace": 2,
+      "isShareBill": "YES",
+      "withFurniture": "NO",
+      "description": "Nice room",
+      "ownerEmail": "bkernighan@mail.com",
+      "ownerContact": "04000000",
+      "price": 100,
+      "totalRooms": 3
+    },
+    {
+        "location": "Melbourne",
+        "image": "https://images.unsplash.com/photo-1574643156929-51fa098b0394?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "parkingSpace": 4,
+        "isShareBill": "NO",
+        "withFurniture": "NO",
+        "description": "Contact Me",
+        "ownerEmail": "mkanatalexander@mail.com",
+        "ownerContact": "04000002",
+        "price": 150,
+        "totalRooms": 5
+    },
+    {
+        "location": "Sydney",
+        "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "parkingSpace": 0,
+        "isShareBill": "YES",
+        "withFurniture": "YES",
+        "description": "Nice",
+        "ownerEmail": "wtls@mail.com",
+        "ownerContact": "04000003",
+        "price": 300,
+        "totalRooms": 2
+    },    
+    {
+        "location": "Melbourne",
+        "image": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+        "parkingSpace": 2,
+        "isShareBill": "NO",
+        "withFurniture": "YES",
+        "description": "Contact Me",
+        "ownerEmail": "mkanatalexander@mail.com",
+        "ownerContact": "04000002",
+        "price": 200,
+        "totalRooms": 4
+    },
+    {
+        "location": "Sydney",
+        "image": "https://images.unsplash.com/flagged/photo-1573168710865-2e4c680d921a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "parkingSpace": 1,
+        "isShareBill": "NO",
+        "withFurniture": "NO",
+        "description": "Nice room with a good location",
+        "ownerEmail": "bkernighan@mail.com",
+        "ownerContact": "04000000",
+        "price": 260,
+        "totalRooms": 4
+    }
+  ]
+  

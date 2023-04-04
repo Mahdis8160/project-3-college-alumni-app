@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# P3-UCLA-ALUMNI-APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
 
-In the project directory, you can run:
+## Acceptance Criteria
+```
+GIVEN a social media platform for UCLA Alumni
+WHEN I load the Home Page
+THEN I am presented with a UCLA title/logo with ALUMNI graduation pictures and a login/sign up page
+WHEN I am not logged in, I can click the send message button to send an alumni member, after I click the button
+THEN I am presented with a form with three inputs for name, email, and message to send message to owner
+WHEN I filled the form and submit, a message will be send to the user's email
+WHEN I click on the Login/Signup menu option
+THEN a page appears on the screen with a toggle between the option to log in or sign up
+WHEN the toggle is set to Signup
+THEN I am presented with three inputs for a username, an email address, and a password, and a signup button
+WHEN the toggle is set to Login
+THEN I am presented with two inputs for an email address and a password and login button
+WHEN I enter a valid email address and create a password and click on the signup button
+THEN my user account is created and I am logged in to the site
+WHEN I enter my account’s email address and password and click on the login button
+THEN I am logged in to the site and redriect to the home page
+WHEN I am logged in to the site
+THEN I am presented with the Dashboard page which is a list of the rooms I have post, and a Post Room button
+THEN the menu options change to Logout
+WHEN I am logged in and click Post a Room button
+THEN I am presented with the post a room page contents a form with inputs to add a new room info.
+WHEN I filled all inputs and click submit button
+THEN I am redircted to my dashboard page and the new room card that I just added will show up with a update and delete button
+WHEN I click on the update button
+THEN I am presented with the update a room page, that content a form with inputs to update room info that I selected
+WHEN I filled all inputs and click submit button
+THEN I am redirected to my dashboard and the updated room info showed up 
+WHEN I click on the delete button
+THEN the room card will be deleted
+THEN I am logged out of the site and redirect to home page  
+```
 
-### `npm start`
+## Installation and Start
+* To Install this application, run `git clone` command, to clone the main branch.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Once cloned, run the following command to install dependencies
+```
+npm install
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* To run this app on your local browser, go to the root directory and run following command:
+```
+npm run develop
+```
 
-### `npm test`
+## Technical
+* MERN Stack
+* React
+* Node.js
+* JavaScript
+* MongoDB
+* GraphQL
+* Stripe
+* Chakra UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## URLs
+* Github: https://github.com/sean-nzeribe/rent-app
+* Heroku deployed link: https://easy-rent-2022.herokuapp.com/
