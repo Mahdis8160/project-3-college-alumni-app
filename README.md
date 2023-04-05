@@ -61,5 +61,5 @@ npm run develop
 * Chakra UI
 
 ## URLs
-* Github: https://github.com/sean-nzeribe/rent-app
-* Heroku deployed link: https://easy-rent-2022.herokuapp.com/
+* Github: https://github.com/Mahdis8160/project-3-college-alumni-app
+
