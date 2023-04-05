@@ -1,0 +1,9 @@
+.footer {
+    width: 100%;
+    text-align: center;
+    /* margin-bottom: 30px; */
+}
+
+.icons {
+    display: flex;
+}
