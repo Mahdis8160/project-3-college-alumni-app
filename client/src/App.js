@@ -10,9 +10,7 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Dashboard from './pages/Dashboard'
-import AddRoom from './pages/AddRoom'
-import SendMessage from './pages/SendMessage'
-import UpdateRoom from './pages/UpdateRoom'
+
 
 
 
@@ -25,7 +23,6 @@ import {
 } from "@apollo/client"
 
 import { setContext } from "@apollo/client/link/context"
-import RoomCardDashboard from './components/RoomCardDashboard';
 
 
 // Construct main GraphQL API endpoint

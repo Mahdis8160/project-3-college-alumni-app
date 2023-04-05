@@ -26,11 +26,11 @@ import { useParams } from 'react-router-dom';
 export default function Navigation() {
   const { username: userParam } = useParams();
 
-  const { loading, data, refetch } = useQuery(userParam ? QUERY_USER : QUERY_ME, {
-    variables: { username: userParam },
-  });
+  // const { loading, data, refetch } = useQuery(userParam ? QUERY_USER : QUERY_ME, {
+  //   variables: { username: userParam },
+  // });
 
-  refetch()
+  // refetch()
 
   const { isOpen, onToggle } = useDisclosure();
 
@@ -42,9 +42,9 @@ export default function Navigation() {
   const linkColor = useColorModeValue('gray.600', 'gray.200');
   const linkHoverColor = useColorModeValue('white');
 
-  if (loading) {
-    return <div>Loading...</div>;
-  }
+  // if (loading) {
+  //   return <div>Loading...</div>;
+  // }
 
   return (
     <Box>

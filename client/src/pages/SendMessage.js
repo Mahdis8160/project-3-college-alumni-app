@@ -13,23 +13,19 @@ import {
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import { useQuery } from '@apollo/client'
-import { QUERY_SINGLE_ROOM } from '../utils/queries'
 import { useParams } from 'react-router-dom';
 // redirect -----
 import { useNavigate  } from "react-router-dom";
 
 
 export default function SendMessageForm() {
-    const { roomId } = useParams()
 
-    const { loading, data } = useQuery(QUERY_SINGLE_ROOM, {
-        variables: { roomId: roomId }
-    })
+
+
 
     // redirect -----
     const navigate = useNavigate()
 
-    const room = data?.room || {}
 
     const [status, setStatus] = useState("Submit");
 
@@ -38,26 +34,7 @@ export default function SendMessageForm() {
         e.preventDefault();
         setStatus("Sending...");
 
-        const { tenantName, tenantEmail, message } = e.target.elements;
-        let details = {
-            name: tenantName.value,
-            email: tenantEmail.value,
-            message: message.value,
-            // owner's email
-            to: room.ownerEmail
-
-
-        };
-        let response = await fetch(`https://p3-easy-rent.herokuapp.com/sendmessage/:roomId`, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json;charset=utf-8"
-            },
-            body: JSON.stringify(details),
-        });
-        setStatus("Submit");
-        let result = await response.json();
-        alert(result.status);
+        setStatus("Submit"); 
 
 
         //redirect ----
@@ -65,10 +42,6 @@ export default function SendMessageForm() {
         navigate(path)
         // window.location.assign('/')
     };
-
-    if (loading) {
-        return <div>Loading...</div>
-    }
 
     return (
         <form

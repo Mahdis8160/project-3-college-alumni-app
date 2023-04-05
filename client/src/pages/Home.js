@@ -1,20 +1,21 @@
 import React from 'react'
 // import Auth from '../utils/auth'
 import { useQuery } from '@apollo/client'
-import { QUERY_ROOMS } from '../utils/queries'
 import './Home.css'
+
+import Navigation from '../components/Navigation'
 const Home = () => {
 
-  const { loading, data, refetch } = useQuery(QUERY_ROOMS)
-  const rooms = data?.rooms || []
-  refetch()
+  
+  // refetch()
   return (
     <main>
       <div>
         <div>
-
+        
           <section class="section">
             <h1 style={{ fontSize: '40px' }}>UCLA ALUMNI APP </h1>
+            <div style={{ fontSize: '28px', display:'flex',justifyContent: 'center',alignItems: 'center'}}> Welcome Back Bruins! </div>
             <div class="grid">
               <div class="item">
                 <div class="item__details">
