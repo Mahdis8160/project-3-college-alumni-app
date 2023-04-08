@@ -12,7 +12,7 @@ app.use(express.json());
 // for nodemailer ------------------
 const router = express.Router()
 const cors = require('cors')
-const nodemailer = require('nodemailer')
+
 app.use(cors())
 app.use("/", router)
 // ----------------------------------
@@ -44,7 +44,9 @@ startServer()
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../client/build')));
 }
-
+app.get('/',(req,res)=>{
+  res.send("working")
+})
 // app.use(routes);
 
 db.once('open', () => {
