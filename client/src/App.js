@@ -26,8 +26,8 @@ import { setContext } from "@apollo/client/link/context"
 
 
 // Construct main GraphQL API endpoint
-const httpLink = createHttpLink({
-  uri: "/graphql",
+const httpLink = createHttpLink({ 
+  uri: "https://ucla-alumni-app.herokuapp.com/graphql",
 });
 
 // Construct request middleware that will attach the JWT token to every request as an `authorization` header
