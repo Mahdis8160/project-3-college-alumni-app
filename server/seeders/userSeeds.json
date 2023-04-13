@@ -1,0 +1,18 @@
+[
+    {
+      "username": "Brian Kernighan",
+      "email": "bkernighan@mail.com",
+      "password": "password01"
+    },
+    {
+      "username": "Max Kanat-Alexander",
+      "email": "mkanatalexander@mail.com",
+      "password": "password02"
+    },
+    {
+      "username": "Why The Lucky Stiff",
+      "email": "wtls@mail.com",
+      "password": "password03"
+    } 
+  ]
+  
