@@ -48,5 +48,6 @@ npm run develop
 * Chakra UI
 
 ## URLs
-* Github: https://github.com/Mahdis8160/project-3-college-alumni-app
+* Github: https://github.com/Mahdis8160/project-3-college-alumni-app FRONT END
+Github: https://github.com/Mahdis8160/project-3-back-end BACK END
 
