@@ -20,10 +20,7 @@ const userSchema = new Schema(
             type: String,
             required: true
         },
-        rooms: [{
-            type: Schema.Types.ObjectId,
-            ref: 'Room'
-        }]
+        
     },
     // {
     //     toJSON: {
