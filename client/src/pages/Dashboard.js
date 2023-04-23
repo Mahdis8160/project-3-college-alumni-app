@@ -114,35 +114,35 @@ const Dashboard = () => {
     <SimpleGrid columns={2} spacing={6}>
     <Box>
     <Input
-                 type="text"
-                 placeholder="Name"
-                 value={name}
-                 onChange={handleNameChange}
-               />
+      type="text"
+      placeholder="Name"
+      value={name}
+      onChange={handleNameChange}
+      />
     </Box>
     <Box>
     <Input
-                 type="email"
-                 placeholder="Email"
-                 value={email}
-                 onChange={handleEmailChange}
-               />
+      type="email"
+      placeholder="Email"
+      value={email}
+      onChange={handleEmailChange}
+      />
     </Box>
     <Box>
     <Input
-                 type="text"
-                 placeholder="Birthdate"
-                 value={birthdate}
-                 onChange={handleBirthdateChange}
-               />
+     type="text"
+     placeholder="Birthdate"
+     value={birthdate}
+     onChange={handleBirthdateChange}
+     />
     </Box>
     <Box>
     <Input
-                 type="tel"
-                 placeholder="Phone"
-                 value={phone}
-                 onChange={handlePhoneChange}
-               />
+     type="tel"
+     placeholder="Phone"
+      value={phone}
+      onChange={handlePhoneChange}
+      />
     </Box>
     </SimpleGrid>
     <Button colorScheme="blue" variant="solid" onClick={handleSave}>
