@@ -93,7 +93,7 @@ export default function Footer() {
                     spacing={4}
                     justify={{ base: 'center', md: 'space-between' }}
                     align={{ base: 'center', md: 'center' }}>
-                    <Text fontSize="18" fontWeight="700">© 2022 Made with ❤️ by Sean Nzeribe</Text>
+                    <Text fontSize="18" fontWeight="700">© 2022 Made with ❤️ by Sean Nzeribe, Mahdis Mozafari, and Corey Kirschner</Text>
                     <Stack direction={'row'} spacing={6}>
                         <Button onClick={handleClick} colorScheme='blue'>Donate 5.00$</Button>
                         <Link label={'LinkedIn'} href={'https://www.linkedin.com/in/sean-nzeribe-53929221b/'} target="_blank">
